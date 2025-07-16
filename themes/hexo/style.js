@@ -8,8 +8,8 @@ import CONFIG from './config'
  * @returns
  */
 const Style = () => {
-  // 从配置中获取主题色，如果没有配置则使用默认值 #928CEE
-  const themeColor = siteConfig('HEXO_THEME_COLOR', '#928CEE', CONFIG)
+  // 从配置中获取主题色，如果没有配置则使用默认值 #002FA7
+  const themeColor = siteConfig('HEXO_THEME_COLOR', '#002FA7', CONFIG)
 
   return (
     <style jsx global>{`
